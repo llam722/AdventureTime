@@ -11,5 +11,6 @@ class CreatePokemon {
         element.appendChild(this.node)
         console.log("A new pokemon has been created!")
 
+        
     }
 }
