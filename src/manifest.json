@@ -1,7 +1,7 @@
 {
-  "name": "Covid-19 Stats UK",
+  "name": "Pokedex Theme",
   "version": "1.0",
-  "description": "latest covid data of UK",
+  "description": "latest info on Pokemon",
     "manifest_version": 3,
     "author": "Louis and Mauricio",
     "action":{
