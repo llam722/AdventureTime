@@ -8,5 +8,5 @@
     "default_popup": "index.html",
     "default_title": "Pokedex Theme"
   },
-  "permissions": ["activeTab"]
+  "permissions": ["activeTab", "<all_urls>"]
 }

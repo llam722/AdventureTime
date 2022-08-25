@@ -1,4 +1,4 @@
-class createPokemon {
+class CreatePokemon {
     constructor(element) {
         // Create image
         this.node = document.createElement("img");
