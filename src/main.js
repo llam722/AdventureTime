@@ -11,6 +11,7 @@ let randomNum = Math.floor(Math.random() * (imgArr.length));
 
 // create pokemon next to image selected by random number
 const selectedImg = imgArr[randomNum];
+console.log("about to create a pokemon")
 new createPokemon(selectedImg);
 
 
