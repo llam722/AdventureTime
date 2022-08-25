@@ -9,7 +9,13 @@
     "default_title": "Pokedex Theme",
     "default_icon" : "src/assets/cursor/pokeball.png",
     "background": {
-      "service_worker": ["src/background.js", "src/main.js", "src/script.js", "src/createPokemon.js"]
+      "service_worker": ["src/background.js", "src/main.js", "src/script.js", "src/createPokemon.js"],
+      "content_scripts": [
+        {
+          "matches": [ "<all_urls>" ],
+          "css": ["src/style.css"]
+        }
+      ]
     },
     "cursor": "url(src/assets/cursor/pokeball.png)"
     },
