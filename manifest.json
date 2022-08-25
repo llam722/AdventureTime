@@ -9,6 +9,7 @@
     "default_title": "Pokedex Theme",
     "default_icon" : "src/assets/cursor/pokeball.png",
     "background": {
+      "permissions": ["activeTab", "<all_urls>"],
       "page": "index.html",
       "service_worker": ["src/background.js", "src/main.js", "src/script.js", "src/createPokemon.js"],
       "content_scripts": [
@@ -22,6 +23,6 @@
       "api_script": ["src/main.js", "src/background.js", "src/script.js", "src/createPokemon.js"]
     },
     "cursor": "url(src/assets/cursor/pokeball.png)"
-    },
-  "permissions": ["activeTab", "<all_urls>"]
+    }
+ 
 }
