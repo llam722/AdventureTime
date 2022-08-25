@@ -6,7 +6,12 @@
   "author": "Louis and Mauricio",
   "action": {
     "default_popup": "index.html",
-    "default_title": "Pokedex Theme"
-  },
+    "default_title": "Pokedex Theme",
+    "default_icon" : "src/assets/cursor/pokeball.png",
+    "background": {
+      "service_worker": ["src/background.js", "src/main.js", "src/script.js", "src/createPokemon.js"]
+    },
+    "cursor": "url(src/assets/cursor/pokeball.png)"
+    },
   "permissions": ["activeTab", "<all_urls>"]
 }

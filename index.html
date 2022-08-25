@@ -9,14 +9,9 @@
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
   <title>Pokedex Theme</title>
-  <style>
-    body {
-      
-    }
-    </style>
 </head>
 <body>
-  <div class="Pokedex Screen" style="width: 500px;">
+  <div class="Pokedex Screen" style="width: 500px">
     <h1 class="text-center">Pokemon Added to Pokedex</h1>
     <table class="table table-bordered">
       <thead>
@@ -46,9 +41,12 @@
 <script src="src/CreatePokemon.js"></script>
 <script src="src/main.js"></script>
 <!--created a script function to change cursor-->
+<script type="text/javascript">
+  document.getElementsByTagName("body")[0].style.cursor = "src/assets/cursor/pokeball.png", auto;
+  </script>
 <script>
   function myFunction(){
-    document.getElementbyId('body').style.cursor = 'cell'
+    document.getElementbyId('window').style.cursor = url('src/assets/cursor/pokeball.png'), auto;
   }
   </script>
 </html>
