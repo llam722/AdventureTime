@@ -2,10 +2,11 @@
   "name": "Pokedex Theme",
   "version": "1.0",
   "description": "latest info on Pokemon",
-    "manifest_version": 3,
-    "author": "Louis and Mauricio",
-    "action":{
-        "default_popup": "index.html",
-        "default_title": "Pokedex Theme"
-    }
+  "manifest_version": 3,
+  "author": "Louis and Mauricio",
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "Pokedex Theme"
+  },
+  "permissions": ["activeTab"]
 }
