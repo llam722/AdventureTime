@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang="'en" style="cursor:url(src/assets/cursor/pokeball.png), auto">
+<html lang="'en" class="html">
 <head>
- 
+  <link rel="stylesheet" href="/src/style.css">
   <!-- inserting the required meta tags-->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,30 +10,61 @@
 
   <title>Pokedex Theme</title>
 </head>
-<body>
-  <div class="Pokedex Screen" style="width: 500px">
-    <h1 class="text-center">Pokemon Added to Pokedex</h1>
-    <table class="table table-bordered">
-      <thead>
-        <tr>
-          <th>Pokemon</th>
-          <th>Type</th>
-          <th>HP</th>
-          <th>LVL</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td id="pokemon"></td>
-          <td id="type"></td>
-          <td id="hp"></td>
-          <td id="lvl"></td>
-        </tr>
-      </tbody>
-    </table>
+<body class="Pokedex">
+  <div class="Pokedex Screen">
+    <h1 class="text-center">Pokésmith</h1>
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th>Pokemon</th>
+      <th>Weight</th>
+      <th>HP</th>
+      <th>LVL</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td id="pokemon"></td>
+      <td id="weight"></td>
+      <td id="hp"></td>
+      <td id="lvl"></td>
+    </tr>
+  </tbody>
+</table>
+  </div>
+ 
+  <div class="playground">
+    <div>Random Pickachu</div>
+    <div>Random tree </div>
+    <div>Random bush </div>
+    <div>Random trainer </div>
+    <div>Random tree </div>
+    
+    
   </div>
   <!-- -->
-  <button onclick="myFunction()">Pokeball</button>
+  <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th>Pokemon</th>
+        <th>Weight</th>
+        <th>HP</th>
+        <th>LVL</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td id="pokemon"></td>
+        <td id="weight"></td>
+        <td id="hp"></td>
+        <td id="lvl"></td>
+      </tr>
+    </tbody>
+  </table>
+  <button onclick="myFunction()">Fight</button>
+  <button onclick="myFunction()">Attack</button>
+  <button onclick="myFunction()">Item</button>
+  <button onclick="myFunction()">Run</button>
 
 </body>
 <!-- Inserting our script.js file-->
@@ -42,3 +73,6 @@
 <script src="src/main.js"></script>
 <!--created a script function to change cursor-->
 </html>
+
+
+

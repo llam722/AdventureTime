@@ -1,9 +1,15 @@
-async function fetchData(){
-  const res = await fetch('https://api.coronavirus.data.gov.uk/v1/data');
+async function fetchData() {
+  const res = await fetch("https://pokeapi.co/api/v2/pokemon/pikachu");
+
   const record = await res.json();
-  document.getElementById('pokemon').innerHTML=record.data[0].date;
-  document.getElementById('type').innerHTML=record.data[0].areaName;
-  document.getElementById('hp').innerHTML=record.data[0].latestBy;
-  document.getElementById('lvl').innerHTML=record.data[0].deathNew;
+  console.log(record);
+  document.getElementById("pokemon").innerHTML = record.name;
+  document.getElementById("weight").innerHTML = record.weight;
+  document.getElementById("hp").innerHTML = Math.floor(
+    Math.random() * (1200 - 500)
+  );
+  document.getElementById("lvl").innerHTML = Math.floor(
+    document.getElementById("hp").innerHTML * 0.2
+  );
 }
 fetchData();

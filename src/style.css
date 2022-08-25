@@ -1,4 +1,22 @@
-html
-{
+html {
     cursor: url('src/assets/cursor/pokeball.png'), auto;
+}
+
+.playground {
+    /* General */
+    height: 400px;
+    width: 500px;
+    background-color: rgb(163, 225, 148);
+    /* Borders */
+    border-style: solid;
+    border-width: 2px;
+}
+.table {
+    border: 1px solid;
+}
+
+.Pokedex {
+    height: 200px;
+    width: 500px;
+    background-color: rgb(241, 241, 241);
 }
